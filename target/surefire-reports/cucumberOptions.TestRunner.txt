@@ -1,0 +1,212 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 0, Errors: 24, Skipped: 18, Time elapsed: 1.648 sec <<< FAILURE!
+Initialize the browser with specific sites home page(Order one product)  Time elapsed: 0.009 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForPlaceOrderFunctionality.initialize_the_browser_with_specific_sites_home_page(stepDefinationForPlaceOrderFunctionality.java:25)
+	at ?.Initialize the browser with specific sites home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/OrderProduct.feature:5)
+
+Order one product  Time elapsed: 0.011 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForPlaceOrderFunctionality.initialize_the_browser_with_specific_sites_home_page(stepDefinationForPlaceOrderFunctionality.java:25)
+	at ?.Initialize the browser with specific sites home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/OrderProduct.feature:5)
+
+Order one product  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+User is on home page(Positive search with multiple value #1)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:5)
+
+Positive search with multiple value #1  Time elapsed: 0.003 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:5)
+
+Positive search with multiple value #1  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+User is on home page(Positive search with multiple value #2)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:5)
+
+Positive search with multiple value #2  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:5)
+
+Positive search with multiple value #2  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+User is on home page(Negative search with multiple value #1)  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:17)
+
+Negative search with multiple value #1  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:17)
+
+Negative search with multiple value #1  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+User is on home page(Negative search with multiple value #2)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:17)
+
+Negative search with multiple value #2  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:17)
+
+Negative search with multiple value #2  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+User is on home page(Home page UI validation)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:28)
+
+Home page UI validation  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForSearchingFunctionality.user_is_on_home_page(stepDefinationForSearchingFunctionality.java:19)
+	at ?.User is on home page(file:///D:/Training/Jenkins/greenKart/src/test/java/features/Search.feature:28)
+
+Home page UI validation  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+Initialize the browser with specific site(Home page UI validation)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForUITesting.initialize_the_browser_with_specific_site(stepDefinationForUITesting.java:20)
+	at ?.Initialize the browser with specific site(file:///D:/Training/Jenkins/greenKart/src/test/java/features/UIValidation.feature:5)
+
+Home page UI validation  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForUITesting.initialize_the_browser_with_specific_site(stepDefinationForUITesting.java:20)
+	at ?.Initialize the browser with specific site(file:///D:/Training/Jenkins/greenKart/src/test/java/features/UIValidation.feature:5)
+
+Home page UI validation  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
+Initialize the browser with specific site(Cart page UI validation)  Time elapsed: 0.001 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForUITesting.initialize_the_browser_with_specific_site(stepDefinationForUITesting.java:20)
+	at ?.Initialize the browser with specific site(file:///D:/Training/Jenkins/greenKart/src/test/java/features/UIValidation.feature:11)
+
+Cart page UI validation  Time elapsed: 0.002 sec  <<< ERROR!
+java.io.FileNotFoundException: .\data.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at resources.Base.loadDataPropertiesFile(Base.java:38)
+	at resources.Base.invokeBrowser(Base.java:18)
+	at stepDefinations.stepDefinationForUITesting.initialize_the_browser_with_specific_site(stepDefinationForUITesting.java:20)
+	at ?.Initialize the browser with specific site(file:///D:/Training/Jenkins/greenKart/src/test/java/features/UIValidation.feature:11)
+
+Cart page UI validation  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "stepDefinations.Hooks.driver" is null
+	at stepDefinations.Hooks.AfterEveryScenarion(Hooks.java:10)
+
